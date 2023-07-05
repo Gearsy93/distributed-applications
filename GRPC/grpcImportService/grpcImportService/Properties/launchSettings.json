@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "grpcImportService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "GRPC_SSL_TARGET_NAME_OVERRIDE_ARG"
+      }
+    }
+  }
+}

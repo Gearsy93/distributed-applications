@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleContactsApi", "GoogleContactsApi\GoogleContactsApi.csproj", "{78CC772C-ED47-4977-BD22-AA22B6AA2441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78CC772C-ED47-4977-BD22-AA22B6AA2441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CC772C-ED47-4977-BD22-AA22B6AA2441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CC772C-ED47-4977-BD22-AA22B6AA2441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CC772C-ED47-4977-BD22-AA22B6AA2441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4FB1DCF-D567-45EA-94E9-FA0CBD774F64}
+	EndGlobalSection
+EndGlobal

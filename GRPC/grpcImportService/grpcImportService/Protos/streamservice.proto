@@ -1,0 +1,34 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ImportService";
+import "google/protobuf/timestamp.proto";
+
+package streamservice;
+ 
+message Request
+{ 
+    string content = 1;
+    google.protobuf.Timestamp perfdate = 2;
+    string perfname = 3;
+    string mainactorname = 4;
+    int32 mainactorage = 5;
+    int32 mainactorexperience = 6;
+    string genrename = 7;
+    string genrebirthplace = 8;
+    string directorname = 9;
+    google.protobuf.Timestamp directorbirthdate = 10;
+    string theatrname = 11;
+    string theatraddress = 12;
+    string theatrcity = 13;
+}
+ 
+message Response
+{ 
+    string content = 1;
+}
+ 
+service Messenger
+{
+  // клиентская потоковая передача
+  rpc ClientDataStream (stream Request) returns (Response);
+}

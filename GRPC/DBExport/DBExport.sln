@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBExport", "DBExport\DBExport.csproj", "{F3CB370D-E661-4440-A447-4B9784A50B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBExportExcel", "DBExportExcel\DBExportExcel.csproj", "{622699B3-B825-4091-8E00-F50A275F808C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3CB370D-E661-4440-A447-4B9784A50B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CB370D-E661-4440-A447-4B9784A50B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CB370D-E661-4440-A447-4B9784A50B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CB370D-E661-4440-A447-4B9784A50B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622699B3-B825-4091-8E00-F50A275F808C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622699B3-B825-4091-8E00-F50A275F808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622699B3-B825-4091-8E00-F50A275F808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622699B3-B825-4091-8E00-F50A275F808C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41DCA70B-67B4-49ED-94EE-5862A1D1EA60}
+	EndGlobalSection
+EndGlobal
